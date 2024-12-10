@@ -16,7 +16,6 @@ class YBAÑEZ_ACTIVITY_I {
             System.out.println("Box #3");
                 break;
             
-            sc.close();
         }
     }
 }
