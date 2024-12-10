@@ -1,7 +1,7 @@
 package MIDTERM_CANILLO;
 import java.util.Scanner;
 
-public class CANIILO_ACTIVITY_I {
+public class CANILLO_ACTIVITY_I {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
