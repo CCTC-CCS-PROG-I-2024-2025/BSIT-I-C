@@ -1,17 +1,22 @@
 import java.util.Scanner;
 
 public class SELMA_ACTIVITY_III {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter non negative integer number");
-        int num = sc.nextInt();
-
-        int factorial= 1;
-
-        for(int x =1; x<=num; x++){
-            factorial *=x;
-
-        }
-        System.out.println(factorial);
+   public static void main(String[] args) {
+        String name = "Junrel";
+        int age = 19;
+        double height = 175.5;
+        float weight = 50.0f;
+        char letter = 'p';
+        boolean isStudent = false;
+    
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(height);
+        System.out.println(weight);
+        System.out.println(letter);
+        System.out.println(isStudent);
+        
+    
     }
+        
 }
