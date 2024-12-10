@@ -1,4 +1,4 @@
-public class Gabasa_Activity_IV {
+public class GABASA_ACTIVITY_IV {
     public static void main(String[] args) {
         int a = 15;
         int b = 5;
