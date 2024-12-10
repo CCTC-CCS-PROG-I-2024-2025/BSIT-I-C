@@ -1,16 +1,16 @@
 import java.util.Scanner;
-public class TEROBIAS_ACTIVITY_IV {
-    public static void main (String [] args){
-       Scanner sc = new Scanner(System.in) {
-        System.out.println("Enter a number: ");
-        int number = sc.nextInt();
+
+class TEROBIAS_ACTIVITY_IV {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a non-negative interger");
+        int x = sc.nextInt();
+
         int factorial = 1;
-        
-        for (int i = 1; i <= number; i++) {
-            factorial = factorial * i; 
+        for ( int j = 1; j <= x; j++ ){
+            factorial *=j;
         }
-        
-        System.out.println("Factorial: " + factorial);
-        }
+        System.out.println("The factorial of" + x + "is:" + factorial);
     }
 }
