@@ -2,16 +2,25 @@ import java.util.Scanner;
 
 public class SELMA_ACTIVITY_III {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter non negative integer number");
-        int num = sc.nextInt();
+        Scanner scanner = new Scanner (System.in);
 
-        int factorial= 1;
+        System.out.println("Enter your score: ");
+        int score = scanner.nextInt();
+        
+        scanner.close();
 
-        for(int x =1; x<=num; x++){
-            factorial *=x;
+        if (score >= 90) {
+          System.out.println("Grade: A");
+        } else if (score >= 80) {
+          System.out.println("Grade: B");
+        } else if (score >= 70) {
+          System.out.println("Grade: C");
+         } else {
+          System.out.println("Grade: F");
+        
+         }
 
-        }
-        System.out.println(factorial);
+
+        }   
+       
     }
-}
