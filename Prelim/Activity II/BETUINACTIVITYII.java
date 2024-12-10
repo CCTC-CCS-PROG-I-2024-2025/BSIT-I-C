@@ -1,4 +1,4 @@
-public class BETUINACTIVITYII{ 
+public class BETUIN_ACTIVITY_II{ 
 
     public static void main(String[] args) {
         System.out.println("Lyrel N. Betuin");  
