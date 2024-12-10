@@ -1,4 +1,4 @@
-public class CANTORNE_ACTIVTIY_III {
+public class CANTORNE_ACTIVTY_III {
     public static void main(String [] args){
         String name = "Joshua";
         int age = 19;
