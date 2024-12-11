@@ -1,18 +1,15 @@
 public class CANEDO_ACTIVITY_IV {
-    public static void main(String[] args) {
-        int a = 4;
-        int b = 8;
-        int c = 10;
-        
+    public static void main(String[] args){
+        int a = 5;
+        int b = 6;
+        int c = 7;
         int sum = a+b+c;
-        int difference = a-b-c;
-        int product = a*b*c;
+        int diff = a-b-c;
+        int prod = a*b*c;
         int qoutient = a/b/c;
-
         System.out.println(sum);
-        System.out.println(difference);
-        System.out.println(product);
+        System.out.println(diff);
+        System.out.println(prod);
         System.out.println(qoutient);
     }
-
-}   
+}
