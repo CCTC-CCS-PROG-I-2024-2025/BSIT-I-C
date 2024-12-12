@@ -1,4 +1,4 @@
-class MAHINAY_ACTIVITY_IV {
+class MAHINAY_A_ACTIVITY_IV {
     public static void main(String[] args) {
         int x = 10;
         int y = 5;
