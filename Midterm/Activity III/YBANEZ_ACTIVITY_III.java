@@ -1,4 +1,4 @@
-public class SELMA_ACTIVITY_III {
+public class YBANEZ_ACTIVITY_III {
     public static void main(String[] args) {
         String name="Renelyn";
         int age=18;
