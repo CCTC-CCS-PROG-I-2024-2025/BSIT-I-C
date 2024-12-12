@@ -1,4 +1,4 @@
-class MAHINAY_ACTIVITY_III {
+class MAHINAY_A_ACTIVITY_III {
     public static void main(String[] args) {
         String color = "Green";
         int age = 18;
