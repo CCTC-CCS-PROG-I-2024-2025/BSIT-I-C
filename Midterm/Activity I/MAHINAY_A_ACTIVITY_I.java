@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class MAHINAY_ACTIVITY_I {
+class MAHINAY_A_ACTIVITY_I {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the color:");
