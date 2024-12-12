@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MAHINAY_ACTIVITY_IV {
+public class MAHINAY_A_ACTIVITY_IV {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
