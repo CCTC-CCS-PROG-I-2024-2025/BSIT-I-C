@@ -1,6 +1,6 @@
 public class YBANEZ_ACTIVITY_III {
     public static void main(String[] args) {
-        String name="Renelyn";
+        String name="Khatty";
         int age=19;
         double height=1.56;
         char letter='K'; 
