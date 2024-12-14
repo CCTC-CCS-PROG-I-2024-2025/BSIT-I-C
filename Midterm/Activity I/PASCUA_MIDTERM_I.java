@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PASCUA_MIDTERM_I {
+public class PASCUA_ACTIVITY_I {
     public static void main (String[] args){
         Scanner sc = new Scanner (System.in);
         System.out.println ("Enter a color");
