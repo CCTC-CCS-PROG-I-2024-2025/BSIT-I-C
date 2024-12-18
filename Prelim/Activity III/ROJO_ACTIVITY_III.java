@@ -1,6 +1,6 @@
 public class ROJO_ACTIVITY_III {
     public static void main (String[] args){
-        String name = "JOHN";
+        String name = "TONI";
         int age = 20;
         double height = 152.4f;
         char surename = 'B';
