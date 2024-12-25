@@ -14,6 +14,4 @@ public class MERCA_ACTIVITY_III {
         System.out.println(wool);
         System.out.println(isCat);
     }
- }{
-
-}
+  }
