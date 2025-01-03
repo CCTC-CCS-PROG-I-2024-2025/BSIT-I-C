@@ -1,0 +1,16 @@
+    import java.util.Scanner;
+    class GAMBOA_ACTIVITY_IV {
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+           System.out.println("Enter a number:");
+            int number = sc.nextInt();
+            int factorial = 2;
+
+            for (int i = 2; i <= number; i++){
+                factorial = factorial * i;
+            }
+
+            System.out.println("Factorial: " + factorial );
+        }
+    }
+
