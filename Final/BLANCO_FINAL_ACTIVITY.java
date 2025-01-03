@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class BLANCO_FINAL_ACTIVITY {
 
     public static void main(String[] args) {
+        System.out.println("Wellcome to BLANCO'S SIMPLE CALCULATOR");
         // Create a Scanner object for taking user input
         Scanner scanner = new Scanner(System.in);
 
