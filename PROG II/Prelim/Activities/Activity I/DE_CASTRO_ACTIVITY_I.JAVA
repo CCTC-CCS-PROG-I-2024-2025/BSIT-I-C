@@ -14,6 +14,6 @@ public class DE_CASTRO_ACTIVITY_I {
     System.out.println("Enter a Number that corresponds to the name you want to Display");
     int number = sc.nextInt();
 
-    System.out.println(name[number]);
+    System.out.println(name[number - 1]);
   }
 }
