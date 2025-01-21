@@ -19,5 +19,5 @@ Scanner sc = new Scanner(System.in);
             
                 int number = scanner.nextInt();
                 System.out.println (names [ number-1]);
-
-
+    }
+    }
