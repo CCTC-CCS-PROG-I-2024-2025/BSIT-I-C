@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class DACUYAN_ACTIVITY_I{
-    public static void main(String[] args);{
+    public static void main(String[] args){
 
 Scanner sc = new Scanner(System.in);
 
@@ -11,13 +11,13 @@ Scanner sc = new Scanner(System.in);
         System.out.println("Enter 5 names:");
         for (int i = 0; i < 5; i++) {
             System.out.print("Enter name" +  (i + 1) + ": ");
-            names[i] = scanner.nextLine();
+            names[i] = sc.nextLine();
         }
 
         
             System.out.print("Enter a number that corresponds to the name you want to display: ");
             
-                int number = scanner.nextInt();
+                int number = sc.nextInt();
                 System.out.println (names [ number-1]);
     }
     }
