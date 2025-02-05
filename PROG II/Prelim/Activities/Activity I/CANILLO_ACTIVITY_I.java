@@ -10,8 +10,9 @@ class CANILLO_ACTIVITY_I {
             System.out.println("ENTER NAME" + (i+1) + ":");
             names [i] = sc.nextLine();
         }
-        System.out.println("ENTER A NUMBER (0-4):");
+        System.out.println("ENTER USERS NUMBER:");
         int number = sc.nextInt();
+
         System.out.println(names[number - 1]); 
 
         }
