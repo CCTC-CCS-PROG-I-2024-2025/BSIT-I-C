@@ -1,18 +1,21 @@
-import java.util.Scanner;
+import java.util.Scanner; 
 
-public class BUBULI_ACTIVITY_I {
+class CANILLO_ACTIVITY_I {
     public static void main(String[] args) {
-      Scanner sc = new Scanner(System.in);
-      
-      String[] names = new String[5];
+        Scanner sc = new Scanner(System.in);
 
-      for (int i = 0; i < 5; i++) {
-          System.out.println("Enter name" + (i + 1) + ":");
-          names[i] = sc.nextLine();
-      }
-      System.out.println("Enter a user number");
-      int number = sc.nextInt();
+        String [] names=new String[5];
 
-      System.out.println(names[number - 1]);
+        for(int i =0; i<5; i++) {
+            System.out.println("ENTER NAME" + (i+1) + ":");
+            names [i] = sc.nextLine();
+        }
+        System.out.println("ENTER THE USERS NUMBER:");
+        int number = sc.nextInt();
+
+        System.out.println(names[number - 1]); 
+
+        }
+
+
     }
-}
