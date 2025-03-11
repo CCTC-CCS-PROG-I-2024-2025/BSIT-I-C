@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Demo{
+public class SAGAYSAY_ACTIVITY_I {
     public static void main(String[] args) {
     Scanner sc = new Scanner (System.in);
         System.out.println("Enter the name of the item:");
