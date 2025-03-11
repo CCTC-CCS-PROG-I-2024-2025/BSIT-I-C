@@ -1,10 +1,11 @@
 public class CANEDO_ACTIVITY_III {
-    public static void main(String[] args){
-        String name = "Nathaniel James";
+
+    public static void main(String[] args) {
+        String name = "James David";
         int age = 19;
-        double height = 5.3;
-        float weight = 60.1f;
-        char letter = 'N';
+        double height = 5.4;
+        float weight = 60f;
+        char letter = 'j';
         boolean isstudent = false;
         System.out.println(name);
         System.out.println(age);
